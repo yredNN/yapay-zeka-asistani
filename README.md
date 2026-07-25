@@ -18,11 +18,14 @@ Streamlit ve Google Gemini API (`gemini-3.6-flash`) kullanılarak geliştirilmi�
    cd yapay-zeka-asistani
 
 2. Bağımlılıkları yükleyin:
+    ```bash
     pip install -r requirements.txt
 
 3. API Anahtarını Tanımlayın:
+    ```bash
     .streamlit/secrets.toml dosyası oluşturup içine API anahtarınızı ekleyin:
     GEMINI_API_KEY = "your_api_key_here"
 
 4. Uygulamayı çalıştırın:
+    ```bash
     streamlit run app.py
