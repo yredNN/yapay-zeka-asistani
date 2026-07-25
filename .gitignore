@@ -1,0 +1,8 @@
+# Streamlit Gizli Bilgileri (API Key vb.)
+.streamlit/secrets.toml
+
+# Python ve Sanal Ortam Dosyaları
+__pycache__/
+*.pyc
+venv/
+.env
