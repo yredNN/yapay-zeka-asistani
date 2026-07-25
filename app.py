@@ -166,6 +166,25 @@ st.markdown("""
             margin-top: 10px;
             backdrop-filter: blur(12px);
         }
+
+        div[data-testid="stBottom"], 
+        div[data-testid="stBottom"] > div {
+            background-color: transparent !important;
+            background: transparent !important;
+        }
+
+        div[data-testid="stChatMessage"] * {
+            color: #f5f5f7 !important;
+        }
+
+        section[data-testid="stSidebar"] p, 
+        section[data-testid="stSidebar"] span, 
+        section[data-testid="stSidebar"] h1, 
+        section[data-testid="stSidebar"] h2, 
+        section[data-testid="stSidebar"] h3 {
+            color: #f5f5f7 !important;
+        }
+
     </style>
 """, unsafe_allow_html=True)
 
